@@ -6,7 +6,7 @@ from langchain_experimental.agents import create_pandas_dataframe_agent
 import os
 
 # --- PAGE CONFIGURATION ---
-st.set_page_config(page_title="AI EV Optimizer", layout="wide", page_icon="🚗")
+st.set_page_config(page_title="AI EV Optimizer", layout="wide",)
 st.title("Smart EV Fleet Optimizer")
 
 
@@ -106,7 +106,7 @@ if df is not None:
 
 else:
     # This part runs only if 'fleet_data_optimized.csv' is missing
-    st.error("⚠️ File 'fleet_data_optimized.csv' not found!")
+    st.error(" File 'fleet_data_optimized.csv' not found!")
     st.info(
         "Please make sure you have run your optimization script and the CSV is in the project folder."
     )
