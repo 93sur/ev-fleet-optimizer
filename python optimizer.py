@@ -61,9 +61,9 @@ try:
     df.to_csv("fleet_data_optimized.csv", index=False)
 
     # STEP 6: Print success messages to the terminal for debugging
-    print("✅ Optimized file saved successfully!")
-    print(f"✅ Total Savings found: {df['savings_eur'].sum():.2f} EUR")
+    print(" Optimized file saved successfully!")
+    print(f" Total Savings found: {df['savings_eur'].sum():.2f} EUR")
 
 except Exception as e:
     # If the file is missing or code crashes, show the error in the terminal
-    print(f"❌ Error during optimization: {e}")
+    print(f"Error during optimization: {e}")
