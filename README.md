@@ -16,7 +16,6 @@ This project addresses key challenges in EV fleet operations:
 ## Features
 
 | Feature | Description |
-|---------|-------------|
 | Fleet Data Processing | Import and analyze technical EV parameters from CSV datasets |
 | Optimization Engine | Computational strategies for charging infrastructure allocation |
 | Predictive Analytics | ML-based forecasting of battery performance and degradation |
@@ -43,7 +42,10 @@ ev-fleet-optimizer/
 ├── requirements.txt         # Python dependencies
 └── README.md               # This file
 plain
+## AI Fleet Assistant
 
+Natural language interface for fleet queries, powered by Groq API.
+*Note: Requires Groq API key for full functionality.*
 ## Academic Context
 
 Developed as part of the **Master's program in Electromobility** at 
